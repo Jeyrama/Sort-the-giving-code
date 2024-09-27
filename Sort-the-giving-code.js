@@ -27,3 +27,7 @@ function sortGiftCode(code){
 }
 
 // or
+
+function sortGiftCode(code){
+  return code.split('').map(a => a.charCodeAt()).sort((a,b) => a - b).map(a => String.fromCharCode(a)).join('');
+}
