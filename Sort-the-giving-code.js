@@ -21,3 +21,7 @@ Examples (Input => Output):
 
 
 // Solution
+
+function sortGiftCode(code){
+  return code.split('').sort().join('');
+}
